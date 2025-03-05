@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: nom-de-votre-application
+    env: node
+    region: us
+    buildCommand: yarn install
+    startCommand: yarn start
+    branch: main
+    plan: free
+    autoDeploy: true
