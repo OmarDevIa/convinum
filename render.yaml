@@ -1,6 +1,6 @@
 services:
   - type: static
-    name: convinium
+    name: convinum
     env: static
     staticPublishPath: /
     buildCommand: ""
