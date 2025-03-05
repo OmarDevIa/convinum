@@ -1,10 +1,6 @@
 services:
-  - type: web
-    name: nom-de-votre-application
-    env: node
+  - type: static
+    name: mon-site-de-statistiques
+    env: static
     region: us
-    buildCommand: yarn install
-    startCommand: yarn start
-    branch: main
-    plan: free
-    autoDeploy: true
+    staticPublishPath: /
