@@ -1,6 +1,7 @@
 services:
   - type: static
-    name: mon-site-de-statistiques
+    name: convinium
     env: static
-    region: us
     staticPublishPath: /
+    buildCommand: ""
+    startCommand: ""
